@@ -471,7 +471,7 @@ sub printHeader {
   if (defined($options{z})) {
     print $FH "<tv source-info-url=\"http://tvguide.com/\" source-info-name=\"tvguide.com\"";
   } else {
-    print $FH "<tv source-info-url=\"http://tvlistings.zap2it.com/\" source-info-name=\"zap2it.com\"";
+    print $FH "<tv source-info-url=\"http://tvschedule.zap2it.com/\" source-info-name=\"zap2it.com\"";
   }
   print $FH " generator-info-name=\"zap2xml\" generator-info-url=\"zap2xml\@gmail.com\">\n";
 }
